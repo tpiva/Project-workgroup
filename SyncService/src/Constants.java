@@ -6,5 +6,7 @@ public class Constants {
 	public static Integer STATUS_OK = 200;
 	
 	public static String SYNC_FILE_NAME = "sync_file.htm";
+	
+	public static Integer SYNC_GAME_NUMBER = 1;
 
 }
