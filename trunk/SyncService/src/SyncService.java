@@ -106,7 +106,7 @@ public class SyncService implements Runnable{
 		/** passamos para syncSorteios, o número do jogo do qual devemos começar a parser. Em caso de FullSync 1, em caso de 
 		 * somente buscar por um jogo novo, passar o último jogo salvo, ex 1500
 		 */
-		List<Sorteio> listaSorteios = syncSorteios(1586);
+		List<Sorteio> listaSorteios = syncSorteios(Constants.SYNC_GAME_NUMBER);
 		
 		System.out.println("Tempo até termino do parser = " + (System.currentTimeMillis()-time)/1000.0 + " segundos"); 
 		
